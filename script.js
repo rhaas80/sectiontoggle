@@ -32,7 +32,6 @@ jQuery( document ).ready(function() {
                 
                 if(!this.getAttribute('class').match(/toggle/)) {
                      jQuery(this).append('&nbsp;&nbsp; <img border= "0" src="' + im + '">'); 
-                     jQuery(elem).next().toggle();
                }
               }
 
